@@ -50,7 +50,7 @@ body {
 }
 
 .main-header {
-  min-width: 320px;
+  width: 100%;
   background-image: url(../images/football_767.jpg);
   background-position: center center;
   background-repeat: no-repeat;
