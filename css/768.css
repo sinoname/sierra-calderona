@@ -1,0 +1,19 @@
+@media (min-width: 641px) and (max-width: 960px) {
+	.logo {
+	   width: 200px;
+	   margin-left: auto;
+	   margin-right: auto; 
+    }
+
+    .buttons {
+    	display: flex;
+    	flex-direction: row;
+    	flex-wrap: wrap;
+    }
+
+    .application {
+    	width: 310px;
+    }
+
+
+}
