@@ -50,10 +50,6 @@ body {
 }
 
 .main_header {
-  /*width: 100%;
-  max-width: 640px;
-  margin: 0 auto;
-  min-width: 320px;*/
   width: 320px;
   background-image: url(../images/football_767.jpg);
   background-position: center center;
@@ -166,10 +162,6 @@ body {
 
 .main_section {
 	width: 320px;
-	/*width: 100%;
-    max-width: 640px;
-    margin: 0 auto;
-    min-width: 320px;*/
 }	
 
 .sportsmen {
@@ -342,7 +334,7 @@ body {
 }
 
 .main_footer {
-	 width: 320px;
+     width: 320px;
      background-image: url(../images/game_767.jpg);
      background-position: center center;
      background-repeat: no-repeat;
@@ -407,95 +399,7 @@ body {
 	margin-top: 80px;
 }
 
-/*@media (min-width: 641px) and (max-width: 960px) {
-	.main_header {
-      width: 100%;
-      max-width: 960px;
-      margin: 0 auto;
-      min-width: 641px;
-      background-image: url(../images/football_1280.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: #000000;
-      position: relative;
-      padding-top: 40px;
-      padding-bottom: 90px;
-      line-height: 16px;
-    }
 
-    .container {
-    	width: 91%;
-	    padding-right: 4.5%;
-	    padding-left: 4.5%;
-    }
-
-    .logo {
-    	width: 200px;
-    }
-
-    .surface_slogan {
-    	margin-top: 180px;
-    	margin-bottom: 310px;
-    	margin-left: 50px;
-    	font-size: 64px;
-    	letter-spacing: 3px;
-    	line-height: 64px;
-    }
-
-    .slogan_part2 {
-    	margin-top: 0px;
-    	margin-left: 105px;
-    }
-
-    .buttons {
-    	display: flex;
-    	justify-content: space-around;
-    	align-items: flex-end;
-
-    }
-
-    .application {
-        width: 41%;
-        font-size: 14px;
-        line-height: 16px;
-        padding: 15px;
-    }
-
-    .application:nth-child(n+2) {
-	    margin-top: 0; 
-    }
-
-    .application_link {
-        padding-left: 15px;
-        padding-right: 15px;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .application_icon {
-		width: 44px;
-	    height: 44px;
-	}
-
-	.section_header {
-		font-size: 80px;
-		margin-top: 80px;
-		padding-left: 285px;
-	}
-
-	.section_header_img {
-		width: 70%;
-		left: -280px;
-		top: -40px;
-
-	}
-
-	.athlets_card {
-		padding-left: 285px;
-	}
-
-}*/
 	
 
 
