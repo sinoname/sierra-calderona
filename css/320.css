@@ -50,11 +50,10 @@ body {
 }
 
 .main_header {
-  /*width: 100%;
+  width: 100%;
   max-width: 640px;
   margin: 0 auto;
-  min-width: 320px;*/
-  width: 320px;
+  min-width: 320px;
   background-image: url(../images/football_767.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -95,7 +94,6 @@ body {
 
 .surface_logo_text {
     fill: #ffffff;
-
 }
 
 .surface_slogan {
@@ -121,30 +119,25 @@ body {
 	
 }
 
-.application {
-	width: 100%;
-	background-color: #5e42b0;
-	font-family: inherit;
-	color: #ffffff;
-	text-transform: uppercase;
-	font-size: 8px;
-	line-height: 12px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	border-radius: 38px;
-    	
-}
-
-.application:nth-child(n+2) {
+.application_link:nth-child(n+2) {
 	margin-top: 14px; 
 }
 
 .application_link {
 	display: flex;
+	align-items: center;
+	font-family: inherit;
+	font-size: 8px;
+	line-height: 12px;
     text-decoration: none;
-    color: inherit;
-    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
     padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #5e42b0;
+    border-radius: 38px;
 }
       
 .application_icon {
@@ -165,24 +158,18 @@ body {
 }
 
 .main_section {
-	width: 320px;
-	/*width: 100%;
+	width: 100%;
     max-width: 640px;
     margin: 0 auto;
-    min-width: 320px;*/
-}	
-
-.sportsmen {
-	width: 100%;
-	
+    min-width: 320px;
 }
 
 .athlets_section_header, 
 .players_section_header {
 	margin-top: 24px;
 	margin-bottom: -17px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 6.25%;
+	padding-left: 6.25%;
 	font-family: inherit;
 	font-size: 50px;
 	line-height: 50px;
@@ -210,14 +197,15 @@ body {
 
 .athlets_card,
 .players_card {
+	width: 87.5%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	align-items: flex-start;
 	padding-top: 50px;
 	padding-bottom: 55px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 6.25%;
+	padding-right: 6.25%;
 }
 
 .athlets_card:nth-child(3),
@@ -310,8 +298,8 @@ body {
 	position: relative;
 	padding-top: 35px;
 	padding-bottom: 70px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 6.25%;
+	padding-right: 6.25%;
 }
 
 .motivation_card_number {
@@ -357,7 +345,10 @@ body {
 }
 
 .main_footer {
-	 width: 320px;
+	 width: 100%;
+	 max-width: 640px;
+	 margin: 0 auto;
+	 min-width: 320px;
      background-image: url(../images/game_767.jpg);
      background-position: center center;
      background-repeat: no-repeat;
@@ -422,18 +413,17 @@ body {
 	margin-top: 80px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 641px) and (max-width: 960px)  {
 	.main_header {
-		width: 768px;
 		background-image: url(../images/football_1280.jpg);
 		padding-top: 43px;
 		padding-bottom: 95px;
 	}
 
 	.container {
-		width: 704px;
-	    padding-right: 32px;
-	    padding-left: 32px;
+		width:92% ;
+	    padding-right: 4%;
+	    padding-left: 4%;
 	}
 
 	.logo {
@@ -455,23 +445,20 @@ body {
 
     .buttons {
     	display: flex;
-        justify-content: space-around;
+    	justify-content: space-around;
     }
 
-    .application {
-    	width: 313px;
-    	padding-top: 20px;
-    	padding-bottom: 20px;
-    	line-height: 16px;
-    }
-
-    .application:nth-child(n+2) {
-	margin-top: 0; 
+    .application_link:nth-child(n+2) {
+	    margin-top: 0; 
     }
 
     .application_link {
+    	line-height: 16px;
     	font-size: 14px;
     	padding-left: 55px;
+    	padding-right: 55px;
+    	padding-top: 20px;
+    	padding-bottom: 20px;
     }
 
     .application_icon {
@@ -624,7 +611,69 @@ body {
      	margin-top: 55px;
      }
 	    
-}    
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+	.main_header {
+		width: 100%;
+		min-width: 961px;
+		max-width: 1200px;
+		background-image: url(../images/football_1920.jpg);
+		padding-top: 44px;
+		padding-bottom: 110px;
+	}
+
+	.container {
+		width: 80% ;
+		padding-left: 13px;
+		padding-right: 13px;
+	}
+
+	.logo {
+		width: 190px;
+	}
+
+	.surface_slogan {
+		font-size: 5vw;
+	    line-height: 55px;
+	}
+
+	.slogan_part2 {
+		text-align: right;
+	}
+
+	.buttons {
+		display: flex;
+		justify-content: center;
+	}
+
+	.application_link {
+    	line-height: 16px;
+    	font-size: 14px;
+    	padding-left: 55px;
+    	padding-right: 55px;
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    }
+
+	.application_link:nth-child(n+2) {
+	    margin-top: 0;
+	    margin-left: 50px; 
+    }
+
+    .main_section {
+    	width: 100%
+    }
+
+    .main_footer {
+    	width: 100%;
+    	max-width: 1200px;
+    	min-width: 961px;
+    	background-image: url(../images/game_1920.jpg);
+    }
+
+
+}   
    
 /*@media (min-width: 641px) and (max-width: 960px) {
 	.main_header {
