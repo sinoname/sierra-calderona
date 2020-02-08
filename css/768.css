@@ -1,0 +1,52 @@
+@media (min-width: 641px) and (max-width: 960px) {
+
+    .main_header {
+        max-width: 960px;
+        background-image: url(../images/football_1280.jpg);
+        padding-top: 5.2vw;
+        padding-bottom: 11.7vw;
+    }
+
+    .container {
+        max-width: 91vw;
+    }
+
+	.logo {
+	   width: 200px;
+	   margin-left: auto;
+	   margin-right: auto; 
+    }
+
+    .surface_slogan {
+        font-size: 8.3vw;
+        margin-top: 23.4vw;
+        margin-bottom: 39.7vw;
+        line-height: 10vw;
+        padding-left: 7.8vw;
+    }
+
+    .slogan_part2 {
+        margin-top: 0;
+    }
+
+    .buttons {
+        width: 39vw;
+    	display: flex;
+    	flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .application_link:nth-child(n+2) {
+        margin-top: 0; 
+    }
+
+    .application_icon {
+        width: 45px;
+        height: 45px;
+    }
+
+
+
+
+}
