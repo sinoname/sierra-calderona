@@ -75,9 +75,9 @@ body {
   opacity: 0.8;
 }
 
-.container {
+.header_container,
+.footer_container {
 	width: 87.5%;
-	max-width: 280px;
 	padding-right: 6.25%;
 	padding-left: 6.25%;
 	margin-right: auto;
@@ -162,6 +162,11 @@ body {
     margin: 0 auto;
 }
 
+.athlets,
+.players {
+	position: relative;
+}
+
 .athlets_section_header, 
 .players_section_header {
 	margin-top: 7.5%;
@@ -177,26 +182,25 @@ body {
 }
 
 .athlets_header_img {
-	width: 192px;
+	min-width: 192px;
 	display: block;
-	margin: auto;
-	position: relative;
-	top: 50px;
-
+	padding-top: 10%;
+	padding-left: calc(50% - 96px);
+	position: absolute;
 }
 
 .players_header_img {
-	width: 302px;
+	min-width: 302px;
 	display: block;
-	margin: auto;
-	position: relative;
-	top: 25px;
+	padding-top: 10%;
+	padding-left: calc(50% - 151px);
+	position: absolute;
 }
 
 .athlets_card,
 .players_card {
-	width: 87.5%;
 	display: flex;
+	box-sizing: border-box;
 	flex-wrap: wrap;
 	flex-direction: column;
 	align-items: flex-start;
@@ -210,6 +214,7 @@ body {
 .players_card:nth-child(3) {
 	background-color: #fafafa;
 	padding-top: 25%;
+	margin-top: 80%;
 }
 
 .athlets_card:nth-child(4),
@@ -249,7 +254,17 @@ body {
 	color: #8765dd;
 }
 
+
 .number::after {
+	content: "";
+	display: block;
+	width: 16px;
+	height: 3px;
+	margin-top: -3px;
+	background-color: #ffffff;
+}
+
+.number3::after {
 	content: "";
 	display: block;
 	width: 16px;
@@ -272,12 +287,12 @@ body {
 
 .card_content {
 	font-family: inherit;
-	margin-top: 6.25%		`;
-	}
-
-.card_text {
+	margin-top: 6.25%;
 	font-size: 107%;
 	font-weight: 400;
+}
+
+.card_text {
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 0;
@@ -303,7 +318,7 @@ body {
 .motivation_card_number {
 	font-family: inherit;
 	font-weight: 700;
-	font-size: 100%;
+	font-size: 14px;
 	line-height: 14px;
 	color: #f5f6f7;
 	background-color: #5e42b0;
@@ -373,7 +388,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #5e42b0;
-	border-radius: 10px;
+	border-radius: 25px;
 	padding: 10px;
 	box-sizing: border-box;
 }

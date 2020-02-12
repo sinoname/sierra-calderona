@@ -1,20 +1,14 @@
 @media (min-width: 641px) and (max-width: 960px) {
 
     .main_header {
-        max-width: 960px;
         background-image: url(../images/football_1280.jpg);
         padding-top: 5.2vw;
         padding-bottom: 11.7vw;
     }
 
-    .container {
-        max-width: 91vw;
-    }
-
 	.logo {
 	   width: 200px;
-	   margin-left: auto;
-	   margin-right: auto; 
+	   
     }
 
     .surface_slogan {
@@ -30,11 +24,15 @@
     }
 
     .buttons {
-        width: 39vw;
     	display: flex;
-    	flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
+    }
 
+    .application_link {
+        font-size: 14px;
+        line-height: 14px;
+        padding-left: 10%;
+        padding-right: 15%;
     }
 
     .application_link:nth-child(n+2) {
@@ -46,7 +44,125 @@
         height: 45px;
     }
 
+    .button_text_container {
+        flex-basis: 200px;
+    }
 
+    .athlets_section_header {
+        margin-top: 7.5%;
+        margin-bottom: -17px;
+        padding-left: 41%;
+        padding-right: 6.25%;
+        font-size: 571%;
+    }
+
+    .players_section_header {
+        padding-right: 41%;
+        margin-top: 7.5%;
+        margin-bottom: -17px;
+        padding-left: 6.25%;
+        font-size: 571%;
+    }
+
+    .athlets_header_img {
+        min-width: 497px;
+        left: -60%;
+        top: -14%;
+    }
+
+    .players_header_img {
+        min-width: 436px;
+        right: 0%;
+        top: -25%;
+    }
+
+    
+    .players_card {
+        padding-right: 41%;
+        padding-left: 6.25%;
+        padding-top: 4.5%;
+        padding-bottom: 4.5%;
+
+    }
+
+    .athlets_card {
+        padding-left: 41%;
+        padding-right: 6.25%;
+        padding-top: 4.5%;
+        padding-bottom: 4.5%;
+    }
+
+    .athlets_card:nth-child(3),
+    .players_card:nth-child(3) {
+        background-color: #ffffff;
+        padding-top: 0;
+        margin-top: 10%;
+    }
+
+    .card_number {
+        font-size: 128%;
+    }
+
+    .card_number::after {
+        width: 18px;
+        height: 5px;
+        margin-top: -3px;
+    }
+
+    .card_header {
+        font-size: 228%;
+    }
+
+    .card_content {
+        font-size: 114%;
+        line-height: 150%;
+    }
+
+    .motivation_card {
+        padding-bottom: 11%;
+    }
+
+
+    .motivation_card_number {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 46px;
+        top: -28%;
+    }
+
+
+    .motivation_card_number:after {
+        width: 25px;
+    }
+
+    .motivation_header {
+        font-size: 571%;
+        line-height: 60px;
+    }
+
+    .motivation_card_text {
+        font-size: 171%;
+        letter-spacing: 2px;
+        line-height: 100%;
+    }
+
+    .footer_logo {
+        width: 132px;
+    }
+
+    .footer_header {
+        font-size: 571%;
+    }
+
+    .footer_slogan {
+        font-size: 220%;
+        margin-top: 5%;
+        margin-bottom: 55%;
+    }
+
+    .footer_logo_text {
+        margin-top: 10%;
+    }
 
 
 }
