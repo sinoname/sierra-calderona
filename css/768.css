@@ -14,7 +14,6 @@
         margin-right: auto;
         margin-left: auto;
         position: relative;
-
 }
 
 	.logo {
@@ -40,7 +39,8 @@
     }
 
     .application_link {
-        font-size: 1.8vw;
+        flex-basis: 310px;
+        font-size: 14px;
         line-height: 18px;
         padding: 15px 50px 15px 50px;
         box-sizing: border-box;

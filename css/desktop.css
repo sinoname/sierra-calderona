@@ -1,8 +1,6 @@
 @media (min-width: 961px) and (max-width: 1200px) {
 	.main_header {
 		max-width: 1200px;
-		margin: 0 auto;
-		min-width: 961px;
         background-image: url(../images/football_1920.jpg);
 	}
   
