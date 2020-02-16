@@ -77,9 +77,9 @@ body {
 
 .header_container,
 .footer_container {
-	width: 87.5%;
-	padding-right: 6.25%;
-	padding-left: 6.25%;
+	width: 280px;
+	padding-right: 20px;
+	padding-left: 20px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
@@ -116,7 +116,10 @@ body {
 	display: block;
 	margin-top: 7.5%;
 	margin-left: 17%;
-	
+}
+
+.buttons {
+	display: block;
 }
 
 .application_link:nth-child(n+2) {
@@ -127,15 +130,12 @@ body {
 	display: flex;
 	align-items: center;
 	font-family: inherit;
-	font-size: 57%;
+	font-size: 8px;
 	line-height: 12px;
     text-decoration: none;
     text-transform: uppercase;
+    padding: 10px 82px 10px 82px;
     color: #ffffff;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 2.5%;
-	padding-bottom: 2.5%;
 	background-color: #5e42b0;
     border-radius: 38px;
 }
@@ -150,7 +150,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	margin-left: 5%;
+	margin-left: 10px;
 }
 
 .vendor_store {
