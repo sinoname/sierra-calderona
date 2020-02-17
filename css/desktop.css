@@ -120,6 +120,12 @@
     	flex-direction: row-reverse;
     }
 
+    .aside_image {
+        display:block;
+        width: 50%;
+} 
+
+
 
 
 
