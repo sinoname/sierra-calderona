@@ -2,6 +2,14 @@
 	.main_header {
 		max-width: 1200px;
         background-image: url(../images/football_1920.jpg);
+        padding-top: 45px;
+        padding-bottom: 110px;
+	}
+
+	.header_container {
+		width: 80vw;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
   
     .logo {
@@ -9,11 +17,111 @@
     }
 
     .surface_slogan {
+    	font-size: 4.68vw;
+    	line-height: 50px;
+    	margin-top: 15vw;
+    	margin-bottom: 11.5vw;
+    }
+
+    .slogan_part2 {
+    	text-align: right;
+    	margin-top: 0;
+    	margin-left: 0;
     }
 
     .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .application_link {
+        flex-basis: 310px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 15px 50px 15px 50px;
+        box-sizing: border-box;
+    }
+
+    .application_link:nth-child(n+2) {
+        margin-top: 0; 
+        margin-left: 50px;
+    }
+
+    .application_icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .button_text_container {
+        margin-left: 25px;
+    }
+
+    .athlets_section_header {
+        margin-top: 7.5%;
+        margin-bottom: -17px;
+        padding-left: calc(50% - 2.6vw);
+        padding-right: 6.25%;
+        font-size: 571%;
+    }
+
+    .players_section_header {
+        padding-right: calc(50% - 2.6vw);
+        margin-top: 7.5%;
+        margin-bottom: -17px;
+        padding-left: 10%;
+        font-size: 571%;
+    }
+
+     .athlets_header_img {
+        left: -35%;
+        top: -25%;
+    }
+
+    .players_header_img {
+    	max-width: 700px;
+    	right: calc(50% - 500px);
+        top: -20%;
+    }
+
+     .players_card {
+        padding-right: calc(50% - 2.6vw);
+        padding-left: 10%;
+        padding-top: 4.5%;
+        padding-bottom: 4.5%;
+
+    }
+
+    .athlets_card {
+        padding-left: calc(50% - 2.6vw);
+        padding-right: 10%;
+        padding-top: 4.5%;
+        padding-bottom: 4.5%;
+    }
+
+    .athlets_card:nth-child(3),
+    .players_card:nth-child(3) {
+	    background-color: #ffffff;
+	    padding-top: 5%;
+	    margin-top: 5%;
+    }
+
+     .card_header {
+        font-size: 2vw;
+    }
+
+    .card_content {
+    	font-size: 125%;
+    }
+
+    .motivation_wrap {
     	display: flex;
     }
+    .motivation_wrap:nth-child(2) {
+    	flex-direction: row-reverse;
+    }
+
+
+
 
 
 } 
