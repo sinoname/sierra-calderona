@@ -1,6 +1,6 @@
-@media (min-width: 961px) and (max-width: 1200px) {
+@media (min-width: 961px) {
 	.main_header {
-		max-width: 1200px;
+		max-width: 100%;
         background-image: url(../images/football_1920.jpg);
         padding-top: 45px;
         padding-bottom: 110px;
@@ -18,7 +18,7 @@
 
     .surface_slogan {
     	font-size: 4.68vw;
-    	line-height: 50px;
+    	line-height: 4.5vw;
     	margin-top: 15vw;
     	margin-bottom: 11.5vw;
     }
@@ -59,13 +59,13 @@
     .athlets_section_header {
         margin-top: 7.5%;
         margin-bottom: -17px;
-        padding-left: calc(50% - 2.6vw);
-        padding-right: 6.25%;
+        padding-left: calc(50% + 2.6vw);
+        padding-right: 10%;
         font-size: 571%;
     }
 
     .players_section_header {
-        padding-right: calc(50% - 2.6vw);
+        padding-right: calc(50% + 2.6vw);
         margin-top: 7.5%;
         margin-bottom: -17px;
         padding-left: 10%;
@@ -73,18 +73,18 @@
     }
 
      .athlets_header_img {
-        left: -35%;
+        left: -30%;
         top: -25%;
     }
 
     .players_header_img {
-    	max-width: 700px;
-    	right: calc(50% - 500px);
-        top: -20%;
+    	max-width: 70%;
+    	left: -10%;
+        top: -25%;
     }
 
      .players_card {
-        padding-right: calc(50% - 2.6vw);
+        padding-right: calc(50% + 2.6vw);
         padding-left: 10%;
         padding-top: 4.5%;
         padding-bottom: 4.5%;
@@ -92,7 +92,7 @@
     }
 
     .athlets_card {
-        padding-left: calc(50% - 2.6vw);
+        padding-left: calc(50% + 2.6vw);
         padding-right: 10%;
         padding-top: 4.5%;
         padding-bottom: 4.5%;
@@ -105,29 +105,121 @@
 	    margin-top: 5%;
     }
 
+    .card_number {
+        font-size: 135%;
+    }
+
+    .card_number::after {
+        width: 20px;
+        height: 5px;
+        margin-top: -1px;
+        border-radius: 25%;
+    }
+
      .card_header {
-        font-size: 2vw;
+        font-size: 228%;
     }
 
     .card_content {
-    	font-size: 125%;
+    	font-size: 135%;
     }
 
     .motivation_wrap {
     	display: flex;
+    	box-sizing: border-box;
     }
     .motivation_wrap:nth-child(2) {
     	flex-direction: row-reverse;
     }
 
-    .aside_image {
-        display:block;
-        width: 50%;
-} 
+    .aside_img {
+    	width: 50vw;
+    	box-sizing: border-box;
+    	display: block;
+    }
 
+    .motivation_card {
+    	width: 50vw;
+    	box-sizing: border-box;
+    	padding: 10% 10% 5% 10%;
+    }
 
+    .motivation_card2 {
+    	padding-right: 5%;
+    }
 
+    .motivation_card_number {
+    	padding: 40px;
+    	top: 25%;
+    	left: -50px;
+    }
 
+    .motivation_number {
+        left: calc(100% - 47px);
+    }
+
+    .motivation_header {
+        font-size: 4.2vw;
+        line-height: 60px;
+    }
+
+    .motivation_card_text {
+        font-size: 160%;
+        padding-top: 5%;
+        letter-spacing: 2px;
+        line-height: 24px;
+    }
+
+    .footer_container {
+		width: 80vw;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.footer_logo_slogan {
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin-bottom: 7.81vw;
+	}
+
+	.main_footer {
+		padding-top: 12%;
+		padding-bottom: 2.8%;
+	}
+
+	.footer_logo {
+		padding: 20px;
+		margin: 0;
+		width: 132px;
+		height: 130px;
+	}
+
+	.header_slogan_wrap {
+		margin-left: 45px;
+	}
+
+	.header_slogan_wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.footer_slogan {
+		font-size: 220%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.footer_header {
+        font-size: 507%;
+        line-height: 100%;
+        margin-top: 0px;
+    }
+
+    .footer_logo_text {
+    	margin-top: 13.28vw;
+    }
 
 
 } 

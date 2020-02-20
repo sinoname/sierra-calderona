@@ -111,13 +111,14 @@
     }
 
     .card_number {
-        font-size: 128%;
+        font-size: 135%;
     }
 
     .card_number::after {
-        width: 18px;
+        width: 20px;
         height: 5px;
-        margin-top: -3px;
+        margin-top: -1px;
+        border-radius: 25%;
     }
 
     .card_header {
@@ -144,6 +145,7 @@
 
     .motivation_card_number:after {
         width: 25px;
+        
     }
 
     .motivation_header {
@@ -154,7 +156,7 @@
     .motivation_card_text {
         font-size: 171%;
         letter-spacing: 2px;
-        line-height: 100%;
+        line-height: 30px;
     }
 
     .footer_logo {
