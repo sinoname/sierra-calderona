@@ -237,7 +237,7 @@ body {
 .card_number {
 	display: block;
 	font-family: inherit;
-	font-size: 100%;
+	font-size: 14px;
 	font-weight: 700;
 }
 
