@@ -106,7 +106,7 @@
     }
 
     .card_number {
-        font-size: 135%;
+        font-size: 18px;
     }
 
     .card_number::after {

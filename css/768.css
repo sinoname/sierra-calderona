@@ -111,12 +111,12 @@
     }
 
     .card_number {
-        font-size: 135%;
+        font-size: 18px;
     }
 
     .card_number::after {
         width: 20px;
-        height: 5px;
+        height: 4px;
         margin-top: -1px;
         border-radius: 25%;
     }
@@ -145,6 +145,7 @@
 
     .motivation_card_number:after {
         width: 25px;
+        height: 4px;
         
     }
 
