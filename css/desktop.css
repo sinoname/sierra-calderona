@@ -21,6 +21,7 @@
     	line-height: 4.5vw;
     	margin-top: 15vw;
     	margin-bottom: 11.5vw;
+        padding-left: 0px;
     }
 
     .slogan_part2 {
@@ -132,14 +133,14 @@
     	flex-direction: row-reverse;
     }
 
-    .aside_img {
-    	width: 50vw;
+    .motivation_card_preview {
+    	width: 50%;
     	box-sizing: border-box;
     	display: block;
     }
 
     .motivation_card {
-    	width: 50vw;
+    	width: 50%;
     	box-sizing: border-box;
     	padding: 10% 10% 5% 10%;
     }
@@ -156,6 +157,7 @@
 
     .motivation_number {
         left: calc(100% - 47px);
+        top: 22%;
     }
 
     .motivation_header {

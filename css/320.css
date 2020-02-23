@@ -139,6 +139,10 @@ body {
 	background-color: #5e42b0;
     border-radius: 38px;
 }
+
+.application_link:hover {
+	background-color: #e2595e;
+}
       
 .application_icon {
 	fill: #ffffff;
@@ -305,7 +309,7 @@ body {
 
 .aside_img {
 	max-width: 100%;
-	display: inline-block;
+	display: block;
 }
 
 .motivation_card {
